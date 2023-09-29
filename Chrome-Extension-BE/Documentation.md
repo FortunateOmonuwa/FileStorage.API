@@ -7,7 +7,7 @@ This documentation provides an overview of the API endpoints and their functiona
 ## **FileModel**
 
 <summary>
-The FileModel are the files being uploaded into the application
+FileModel are the files being uploaded into the application
 </summary>
 
 <details>
