@@ -126,7 +126,7 @@ namespace Chrome_Extension_BE.Services.Repositories
                     //Save changes
                     await _context.SaveChangesAsync();
 
-                    return $"Video {newFile.Name} was successfully uploaded to {newFile.FilePath} with a unique name of {newFile.UniqueFileName}....\n\n Video can be viewed on{newFile.Url}";
+                    return $"File {newFile.Name} was successfully uploaded to {newFile.FilePath} with a unique name of {newFile.UniqueFileName}....\n\n File can be viewed on {newFile.Url}";
                 }
                 else
                 {
