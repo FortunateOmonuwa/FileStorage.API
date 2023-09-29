@@ -6,7 +6,7 @@ This API is designed to simply handle file uploads to a server and downloads fro
 ## Features
 - Upload Files: Easily upload files to the server with a simple POST request.
 - Download Files: Retrieve specific files from the server using a GET request.
-- File Metadata: Access file information from a database such as file size and url, file path, etc.
+- File Metadata: Access file information from a database such as file size and URL, file path, etc.
 
 ##
 The live link is at [http://fortunate3d-001-site1.atempurl.com/]http://fortunate3d-001-site1.atempurl.com/
@@ -41,4 +41,8 @@ $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
 The commands will create an initial database schema for you based on the data model(s)
+##
 5. **Run the application using dotnet run for Visual Studio code or clicking on the play icon on Visual Studio**
+ ```sh
+ $ dotnet run
+ ```
