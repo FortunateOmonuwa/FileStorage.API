@@ -40,7 +40,7 @@ $ cd Eagles-food-backend
 $ dotnet ef migrations add InitialCreate
 $ dotnet ef database update
 ```
-The commands will create an initial database schema for you based on the data model(s)
+These commands will create an initial database schema for you based on the data model(s)
 ##
 5. **Run the application using dotnet run for Visual Studio code or clicking on the play icon on Visual Studio**
  ```sh
