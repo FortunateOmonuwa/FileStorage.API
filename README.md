@@ -17,11 +17,11 @@ For more detailed information on the API endpoints and usage, refer to the full 
 ## Installation on your local machine
 1. **Clone the repository to your local machine:**
 ```sh
-$ git clone https://github.com/hngx-org/Eagles-food-backend/
+$ git clone https://github.com/FortunateOmonuwa/FileStorage.API.git
 ```
 2. **Change to the project directory:**
 ```sh
-$ cd Eagles-food-backend
+$ cd FileStorage.API
 ```
 3. **Open the appsettings.json file in the project and add your database connection string to the "ConnectionStrings" section.**
 ```sh
