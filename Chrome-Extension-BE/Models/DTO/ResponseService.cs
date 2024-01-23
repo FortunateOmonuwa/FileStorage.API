@@ -1,4 +1,4 @@
-﻿namespace Chrome_Extension_BE.Models.DTO
+﻿namespace FileStorage.API.Models.DTO
 {
     public static class ResponseService
     {

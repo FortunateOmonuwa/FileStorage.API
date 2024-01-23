@@ -1,18 +1,19 @@
 ﻿using Chrome_Extension_BE.DataAccess.DataContext;
 using Chrome_Extension_BE.Models;
-using Chrome_Extension_BE.Models.DTO;
-using Chrome_Extension_BE.Services.Interfaces;
+using FileStorage.API.Models;
+using FileStorage.API.Models.DTO;
+using FileStorage.API.Services.Interfaces;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 
-namespace Chrome_Extension_BE.Services.Repositories
+namespace FileStorage.API.Services.Repositories
 {
     public class FileService : IFileService
     {
-        private readonly FileContext _context;
+        private readonly AppDBContext _context;
         private readonly IConfiguration _config;
 
-        public FileService(FileContext context, IConfiguration config)
+        public FileService(AppDBContext context, IConfiguration config)
         {
             _context = context;
             _config = config;

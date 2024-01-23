@@ -1,4 +1,6 @@
-﻿using Chrome_Extension_BE.Services.Interfaces;
+﻿using FileStorage.API.Models;
+using FileStorage.API.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -40,6 +42,7 @@ namespace Chrome_Extension_BE.Controllers
 
 
         [HttpGet("DownloadFile")]
+        [Authorize (Roles = UserRole.User)]
         public async Task<IActionResult> DownloadVideo(string fileId)
         {
             try

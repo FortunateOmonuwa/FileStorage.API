@@ -1,4 +1,4 @@
-﻿namespace Chrome_Extension_BE.Services.Interfaces
+﻿namespace FileStorage.API.Services.Interfaces
 {
     public interface IFileService
     {
